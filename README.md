@@ -13,7 +13,8 @@ We introduce a new problem KTRL+F, a knowledge-augmented in-document search task
 
 # Ktrl+F Dataset Construction Pipeline
 
-In the absence of suitable benchmarks for evaluating the KTRL+F, we introduce a data construction pipeline that aims to collect sets of key components for KTRL+F: input document, query, corresponding targets, and external knowledge. We employ a pipeline to generate an evaluation set for KTRL+F and subsequently assess its quality through human verification. 
+In the absence of suitable benchmarks for evaluating the KTRL+F, we introduce a data construction pipeline that aims to collect sets of key components for KTRL+F: _input document_, _query_, _corresponding targets_, and _external knowledge_. We employ a pipeline to generate an evaluation set for KTRL+F and subsequently assess its quality through human verification. 
+Full pipeline codes are under [ktrlf_dataset_pipeline](ktrlf_dataset_pipeline).
 
 
 Dataset will be uploaded soon.
