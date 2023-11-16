@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="./bootstrap.min.css" rel="stylesheet">
+</head>
+    <style>
+      body {
+        /* bootstrap xs breakpoint (576px) */
+        width: 576px;
+      }
+
+      .overlay {
+          position:fixed;
+          width:100%;
+          left:0;right:0;top:0;bottom:0;
+          background-color: rgba(255,255,255,0.7);
+          z-index:2147483647;
+          visibility:visible;
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="container m-2">
+      <div class="row mb-2">
+        <div class="col-3 align-self-center"><label for="input" class="form-label">Ktrl+F Query</label></div>
+        <div class="col-9">
+          <div class="input-group">
+            <input type="text" class="form-control" id="input" aria-describedby="search-button">
+            <button class="btn btn-outline-secondary" type="button" id="search-button">
+              <i class="fa-solid fa-magnifying-glass" id="search-button-icon"></i>
+              <i class="fa-solid fa-spinner fa-spin" id="search-button-spinner" style="display: none;"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><label for="range" class="form-label">Highlighting</label></div>
+        <div class="col-9"><input type="range" class="form-range" min="1" max="30" step="1" value="2" id="range"></div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center overlay" id="spinner-overlay">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center overlay" id="indexing-fail-overlay" style="visibility: hidden;">
+        <span id="indexing-fail-message">Indexing Fail. Please retry after page reloading.</span>
+      </div>
+    </div>
+    <script type="text/javascript" src="./bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
