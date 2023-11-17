@@ -12,7 +12,7 @@ This is overall pipeline structure for our plugin.
 Use your local computer to utilize Chrome extension package on your Chrome web browser.
 ```sh
 $ git clone https://github.com/kaistAI/KtrlF.git
-$ cd KtrlF/plugin
+$ cd KtrlF/ktrlf_plugin
 ```
 
 * Go to Chrome extension setting -> Check Developer mode ->  Click 'Load Unpaced' and select cloned repository folder. 
