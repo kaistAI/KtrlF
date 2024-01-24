@@ -1,4 +1,4 @@
-import { LINKPREVIEW_URL } from "./utils.js";
+// import { LINKPREVIEW_URL } from "./utils.js";
 
 timer = undefined;
 function clearTimer(timer) {
@@ -9,7 +9,7 @@ function clearTimer(timer) {
 
 function showPreview(link) {
     function fetchPreview(url) {
-        return fetch(LINKPREVIEW_URL + encodeURIComponent(url))
+        return fetch("https://api.linkpreview.net/?key=a7db9ddfd68a1b848e6c02adfabd3f32&q=" + encodeURIComponent(url))
         .then(function (response) {
             if (response.ok) {
                 return response.json();
