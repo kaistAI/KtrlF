@@ -130,7 +130,7 @@ class MultiSpan(Metric):
 
 
     # (set -> list version)
-    def list_compute_scores(self,golds: List[Set], preds: List[Set], eval_type: str = 'em', average: str = 'micro'):
+    def list_compute_scores(self,golds: List[List], preds: List[List], eval_type: str = 'em', average: str = 'micro'):
         """Compute precision, recall and exact match (or f1) metrics.
 
         :param golds: dictionary of gold XX
