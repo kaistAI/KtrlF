@@ -24,7 +24,7 @@ We release Chrome Extension Plugin built on our model under [ktrlf_plugin](ktrlf
 Please cite if you use the data or code in this repo.
 
 ```
-@inproceedings{oh2024ktlrf,
+@inproceedings{oh2024ktrlf,
   title={KTRL+F: Knowledge-Augmented In-Document Search},
   author={Oh, Hanseok and Shin, Haebin and Ko, Miyoung and Lee, Hyunji and Seo, Minjoon},
   booktitle={NAACL},
