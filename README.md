@@ -24,10 +24,23 @@ We release Chrome Extension Plugin built on our model under [ktrlf_plugin](ktrlf
 Please cite if you use the data or code in this repo.
 
 ```
-@inproceedings{oh2024ktrlf,
-  title={KTRL+F: Knowledge-Augmented In-Document Search},
-  author={Oh, Hanseok and Shin, Haebin and Ko, Miyoung and Lee, Hyunji and Seo, Minjoon},
-  booktitle={NAACL},
-  year={2024}
+@inproceedings{oh-etal-2024-ktrl,
+    title = "{KTRL}+{F}: Knowledge-Augmented In-Document Search",
+    author = "Oh, Hanseok  and
+      Shin, Haebin  and
+      Ko, Miyoung  and
+      Lee, Hyunji  and
+      Seo, Minjoon",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.134",
+    doi = "10.18653/v1/2024.naacl-long.134",
+    pages = "2416--2436"
 }
 ```
